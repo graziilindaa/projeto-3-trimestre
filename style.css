@@ -3,5 +3,10 @@
 :root {
     --bg-color:#424242;
     --primary-color:#F5F5F5;
-    
+    --secundary-color: #F05454;
+    font: "Nunuito Sans", sans-serif;
+}
+
+body{
+    background-color: var(--bg-color);
 }
