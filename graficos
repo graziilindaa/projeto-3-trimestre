@@ -1,3 +1,12 @@
-const'https://github.com/graziilindaa/projeto-3-trimestre.git'
+const url ='https://github.com/graziilindaa/projeto-3-trimestre.git'
 
-conole.log(url);
+async function visualizargraficos() {
+const res = await fetch(url)
+const dados= await res.json()
+comsole.log(dados)
+const paragrafo = document.createElement('p')
+paragrafo.classList.add('graficos-container__texto')
+paragrafo.innerHTML =
+}
+ 
+visualizargraficos()
